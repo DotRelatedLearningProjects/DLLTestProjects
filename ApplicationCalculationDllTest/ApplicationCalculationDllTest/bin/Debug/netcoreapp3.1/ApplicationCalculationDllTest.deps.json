@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ApplicationCalculationDllTest/1.0.0": {
+        "dependencies": {
+          "Calculation": "1.0.0.0"
+        },
+        "runtime": {
+          "ApplicationCalculationDllTest.dll": {}
+        }
+      },
+      "Calculation/1.0.0.0": {
+        "runtime": {
+          "Calculation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationCalculationDllTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculation/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
